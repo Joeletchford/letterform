@@ -1,44 +1,52 @@
-
-.container{
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
+html {
+    box-sizing: border-box;
+    margin: 100px;
 }
-#image{
-	order: 1;
-	position: absolute;
-	margin-left: 500px;
-	width: 500px;
-	height: 600px;
- }
- #image2{
-	 	order: 2;
- 	position: absolute;
- 	margin-left: 1000px;
- 	width: 500px;
- 	height: 600px;
-  }
 
-	#image3{
-			order: 3;
-		position: absolute;
- 	margin-left: 1000px;
-	 	margin-top: 800px;
-		width: 500px;
-		height: 600px;
-	 }
+*, *::before, *:after {
+    box-sizing: inherit;
+}
 
-	 #image4{
-		 	order: 4;
-	 	position: absolute;
- 	margin-left: 500px;
-	 	margin-top: 800px;
-	 	width: 500px;
-	 	height: 600px;
-	  }
+body {
+    overflow: hidden;
+}
+8
+.container {
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+}
 
+#image img {
+    margin-top: 25%;
+		order: 1;
+    position: absolute;
+    height: 45%;
+    float: left;
+}
 
-img{
-flex-basis: auto;
-position: absolute;
+#image2 img {
+    order: 2;
+		margin-bottom: 25%;
+		margin-left: 25%;
+    position: absolute;
+    height: 45%;
+    float: left;
+}
+
+#image3 img {
+    order: 3;
+    position: absolute;
+    margin-bottom: 25%;
+    height: 45%;
+    float: right;
+}
+
+#image4 img {
+    order: 4;
+		margin-bottom: 25%;
+		margin-right: 25%;
+    position: absolute;
+    height: 45%;
+    float: right;
 }

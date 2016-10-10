@@ -1,0 +1,9 @@
+
+.container{
+	width: 500px;
+	height: 600px;
+}
+
+#image{
+	max-height: 70%;
+}

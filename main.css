@@ -1,9 +1,44 @@
 
 .container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+#image{
+	order: 1;
+	position: absolute;
+	margin-left: 500px;
 	width: 500px;
 	height: 600px;
-}
+ }
+ #image2{
+	 	order: 2;
+ 	position: absolute;
+ 	margin-left: 1000px;
+ 	width: 500px;
+ 	height: 600px;
+  }
 
-#image{
-	max-height: 70%;
+	#image3{
+			order: 3;
+		position: absolute;
+ 	margin-left: 1000px;
+	 	margin-top: 800px;
+		width: 500px;
+		height: 600px;
+	 }
+
+	 #image4{
+		 	order: 4;
+	 	position: absolute;
+ 	margin-left: 500px;
+	 	margin-top: 800px;
+	 	width: 500px;
+	 	height: 600px;
+	  }
+
+
+img{
+flex-basis: auto;
+position: absolute;
 }

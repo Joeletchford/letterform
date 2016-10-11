@@ -1,33 +1,38 @@
 html {
     box-sizing: border-box;
+		height: 80%;
+   width: 80%;
 }
 
 *, *::before, *:after {
     box-sizing: inherit;
 }
 img{
-height:150%;
+
+	width: 50%;
 }
 body {
 	/*display: flex;
 	flex-flow: row;
 	flex-wrap: wrap;
 	align-items: flex-start;*/
+	/*height: 100%;
+	   width: 100%;*/
     overflow: hidden;
 }
 
-.container {
+/*.container {
 margin: 0 auto;
 width: 100%;
-}
+}*/
 
 #image, #image2{
-		height: 50%;
+	height: 25%;
 		display:inline-block;
 		position:fixed;
 }
 #image3, #image4 {
-	height: 50%;
+		height: 25%;
 		display: inline-block;
 		position:fixed;
 }

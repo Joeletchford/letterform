@@ -9,7 +9,7 @@ $('body').keypress(function(e) { //ditects weather I pressed a key
     counter ++;
 
     if (e.keyCode == 97) { // if any data is this # than ...	// console.log(data);
-		$('#image').append('<img src="images/letter.png">');} //add image}
+		$("#image").append('<img src="images/letter.png">');} //add image}
 		if (e.keyCode == 98) {
 		$('#image2').append('<img src="images/letter2.png">');}
     if (e.keyCode == 99) {
@@ -37,15 +37,15 @@ $('body').keypress(function(e) { //ditects weather I pressed a key
     if (e.keyCode == 110) {
       $('#image1').append('<img src="images/letter14.png">');}
       if (e.keyCode == 111) {
-        $('#image2').append('<img src="images/letter.png">');}
+        $('#image2').append('<img src="images/letter6.png">');}
       if (e.keyCode == 112) {
-        $('#image3').append('<img src="images/letter2.png">');}
+        $('#image3').append('<img src="images/letter7.png">');}
       if (e.keyCode == 113) {
-        $('#image4').append('<img src="images/letter3.png">');}
+        $('#image4').append('<img src="images/letter8.png">');}
       if (e.keyCode == 114) {
-        $('#image').append('<img src="images/letter4.png">');}
+        $('#image').append('<img src="images/letter14.png">');}
       if (e.keyCode == 115) {
-        $('#image2').append('<img src="images/letter5.png">');}
+        $('#image2').append('<img src="images/letter13.png">');}
       if (e.keyCode == 116) {
         $('#image3').append('<img src="images/letter6.png">');}
       if (e.keyCode == 117) {
